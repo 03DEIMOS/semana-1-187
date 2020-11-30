@@ -6,3 +6,56 @@ body{
     border-radius: 5px;
  
 }
+
+.miembro__item> img{
+    margin-top: 10px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+}
+.miembros{
+    display: grid;   
+    grid-template-columns: auto auto auto auto auto;
+    background-color: azure;
+}
+
+.miembro__item>p{
+    margin: 6px;
+    text-align: justify;
+}
+
+.miembro__item>h2{
+    text-align: center;
+}
+
+.miembro_imagen{
+    width: 200px;
+    height: 300px;
+}
+
+
+.footer{
+    display:  flex;
+    background-color: darkgray;
+}
+
+.footer_info {
+    width: 40%;
+    margin: 1%;
+
+}
+.footer_info> p{
+    text-align: justify;
+    margin-right: 20px;
+}
+
+.footer_contact{
+    display: grid;   
+    font-size: 15px;
+    grid-template-columns: auto auto auto ;
+    width: 60%;
+    margin: 0%;
+    padding: 0%;
+}
+
+
