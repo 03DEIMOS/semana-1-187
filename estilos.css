@@ -7,33 +7,6 @@ body{
  
 }
 
-.miembro__item> img{
-    margin-top: 10px; 
-    display: block;
-    margin-left: auto;
-    margin-right: auto;    
-}
-.miembros{
-    display: grid;   
-    grid-template-columns: auto auto auto auto auto;
-    background-color: azure;
-}
-
-.miembro__item>p{
-    margin: 6px;
-    text-align: justify;
-}
-
-.miembro__item>h2{
-    text-align: center;
-}
-
-.miembro_imagen{
-    width: 200px;
-    height: 300px;
-}
-
-
 .footer{
     display:  flex;
     background-color: darkgray;
@@ -57,5 +30,3 @@ body{
     margin: 0%;
     padding: 0%;
 }
-
-
